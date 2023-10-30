@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Glegoo:wght@400;700&family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  font-family: "Glegoo", arial;
+}
+body {
+  background: #f6dfd1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:root {
+  --font-title: "Changa";
+  --font-subtitle: "Hind Madurai";
+  --bk-seccion: #f1a93c;
+  --bk-cards: #f6dfd1;
+  --bk-btn-second: #b64070;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.35) 83%
+  );
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav img {
+  height: 80px;
+}
+.nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 30px;
+}
+.nav-ul a {
+  color: black;
+  font-family: var(--font-subtitle);
+  font-size: 20px;
+}
+.nav-list img {
+  height: 30px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#portada {
+  width: 100%;
+  height: 625px;
+  display: flex;
+  position: top 0;
+}
+#portada img {
+  width: 100%;
+}
+.register {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 100px 30px;
+  gap: 30px;
+  max-width: 1200px;
+  text-decoration-color: #2c0e18;
+}
+.register h2 {
+  font-family: var(--font-subtitle);
+}
+.register p {
+  color: #2c0e18;
+}
+
+.button {
+  background: #2c0e18;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button a,
+p {
+  color: #f6dfd1;
+}
+.estilos {
+  background: var(--bk-seccion);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px;
+  gap: 40px;
+}
+.estilos h2 {
+  font-family: var(--font-subtitle);
+}
+.estilos-img {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.estilos-img img {
+  height: 400px;
+  border-radius: 10px;
+}
+.milo {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  padding: 40px 30px;
+  gap: 30px;
+}
+.milo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 30px;
+}
+.milo-text h3 {
+  font-family: var(--font-subtitle);
+  font-size: 25px;
+}
+.milo-text p {
+  color: #2c0e18;
+}
+.milo-btn {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+#Productos {
+  width: 100%;
+  background: var(--bk-seccion);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10px;
+  gap: 30px;
+}
+.product h2 {
+  font-family: var(--font-title);
+}
+
+.card-seccion {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 350px;
+  background: var(--bk-cards);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 10px;
+}
+.card h3 {
+  font-family: var(--font-subtitle);
+}
+
+.card img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.btn-card {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-comp {
+  background: #2c0e18;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.button-comp a {
+  color: #f6dfd1;
+}
+.button-cart {
+  display: flex;
+  background: var(--bk-btn-second);
+  padding: 5px 10px 0px 10px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.button-cart img {
+  width: 20px;
+}
+
+.btn-more {
+  background: #2c0e18;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 10px;
+}
+.btn-more a {
+  color: #f6dfd1;
+}
+.servicios {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px;
+  gap: 30px;
+}
+
+.servicios-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 30px;
+}
+
+.servicios-texto h2 {
+  font-family: var(--font-subtitle);
+  font-size: 30px;
+}
+.servicios-texto p {
+  color: #2c0e18;
+}
+.span-servicios {
+  color: #f1a93c;
+}
+
+.servicios-tipo {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.servicios-info {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.servicios-info img {
+  height: 40px;
+}
+
+.servicios-info h3 {
+  font-family: var(--font-subtitle);
+  font-size: 18px;
+}
+.servicios-info p {
+  color: #2c0e18;
+  font-size: 15px;
+}
+
+.contacto {
+  background: var(--bk-seccion);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  display: flex;
+  gap: 50px;
+}
+.contacto-datos {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contacto-datos h2 {
+  font-family: var(--font-subtitle);
+  font-size: 30px;
+}
+
+.contacto-datos p {
+  color: #2c0e18;
+}
+
+.contacto-datos a {
+  color: #2c0e18;
+}
+.contacto-mail {
+  display: flex;
+  gap: 10px;
+}
+
+.contacto-mail img {
+  height: 25px;
+}
+
+.contacto-tel img {
+  height: 25px;
+}
+
+.contacto-redes {
+  display: flex;
+  gap: 30px;
+}
+
+.contacto-redes img {
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  width: 100%;
+}
+
+footer p {
+  color: #2c0e18;
+}
+
+footer img {
+  height: 80px;
+}
+
+/* ========== REGISTRO =========== */
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 30px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.registro h1 {
+  font-family: var(--font-title);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.campos {
+  font-family: var(--font-subtitle);
+  color: #2c0e18;
+  font-size: 20px;
+}
