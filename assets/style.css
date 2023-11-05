@@ -238,7 +238,7 @@ p {
 .btn-more a {
   color: #f6dfd1;
 }
-.servicios {
+#servicios {
   display: flex;
   width: 90%;
   justify-content: center;
