@@ -4,19 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
     <title>Proyecto Final</title>
   </head>
   <body>
     <header>
+      <a href="https://integrador-chi-seven.vercel.app/"
+        ><img src="./assets/imagenes/logo.png" alt="logo"
+      /></a>
       <nav>
-        <a href="https://integrador-chi-seven.vercel.app/"
-          ><img src="./assets/imagenes/logo.png" alt="logo"
-        /></a>
         <div class="nav-list">
+          <label for="menu-toggle" class="menu-label">
+            <img src="./assets/imagenes/carrito/menu.png" alt="menu" />
+          </label>
+          <input type="checkbox" id="menu-toggle" />
           <ul class="nav-ul">
             <li><a href="#portada">Inicio</a></li>
             <li><a href="./registro.html">Registro</a></li>
             <li><a href="./inicio.html">Ingresa</a></li>
+            <li><a href="#Estilos">Estilos</a></li>
             <li><a href="#Milo">Milo</a></li>
             <li><a href="#Productos">Productos</a></li>
             <li><a href="#Contacto">Contacto</a></li>
@@ -29,9 +35,7 @@
       </nav>
     </header>
     <main>
-      <section id="portada">
-        <img src="./assets/imagenes/fondo.jpg" alt="foto portada" />
-      </section>
+      <section id="portada"></section>
       <section id="Registro">
         <div class="register">
           <div class="text-register">
@@ -47,17 +51,18 @@
           </div>
         </div>
       </section>
-      <div class="estilos">
-        <h2>Encontrá TU Estilo</h2>
-        <div class="estilos-img">
-          <div class="button"><p><</p></div>
-          <img src="./assets/imagenes/Estilos/1.jpg" alt="estilo-1" />
-          <img src="./assets/imagenes/Estilos/2.jpg" alt="estilo-2" />
-          <img src="./assets/imagenes/Estilos/3.webp" alt="estilo-3" />
-          <img src="./assets/imagenes/Estilos/4.jpeg" alt="estilo-4" />
-          <div class="button"><p>></p></div>
+      <section id="Estilos">
+        <div class="estilos-cont">
+          <h2>Encontrá TU Estilo</h2>
+          <div class="estilos-img">
+            <img src="./assets/imagenes/Estilos/1.jpg" alt="estilo-1" />
+            <img src="./assets/imagenes/Estilos/2.jpg" alt="estilo-2" />
+            <img src="./assets/imagenes/Estilos/3.webp" alt="estilo-3" />
+            <img src="./assets/imagenes/Estilos/4.jpeg" alt="estilo-4" />
+          </div>
+          <div class="button"><p>ver más</p></div>
         </div>
-      </div>
+      </section>
       <section id="Milo">
         <div class="milo">
           <img src="./assets/imagenes/milo.jpg" alt="milo" />
@@ -75,9 +80,7 @@
             </p>
             <div class="milo-btn">
               <div class="button">
-                <a href="https://integrador-chi-seven.vercel.app/#servicios"
-                  >Servicios</a
-                >
+                <a href="#servicios">Servicios</a>
               </div>
               <div class="button"><a href="./inicio.html">Ingresa</a></div>
             </div>
@@ -161,8 +164,47 @@
               ></b
             >
           </p>
+
+          <div class="servicios-media">
+            <div class="servicios-info">
+              <img src="./assets/imagenes/servicios/tijeras.png" alt="navaja" />
+              <div>
+                <h3>Corte de cabello</h3>
+                <p>
+                  Corte de cabello con lavado incluído y terminaciones a navaja
+                </p>
+              </div>
+            </div>
+
+            <div class="servicios-info">
+              <img
+                src="./assets/imagenes/servicios/navaja-de-afeitar.png"
+                alt="navaja"
+              />
+              <div>
+                <h3>Afeitado Italiano (Clásico)</h3>
+                <p>
+                  Afeitado italiano con dos toallas caliente, una fría, aceites
+                  aromáticos y productos para el cuidado de la piel.
+                </p>
+              </div>
+            </div>
+
+            <div class="servicios-info">
+              <img src="./assets/imagenes/servicios/peinado.png" alt="navaja" />
+              <div>
+                <h3>Tintura</h3>
+                <p>Colorimetría de alta calidad para pelo y barba.</p>
+              </div>
+            </div>
+          </div>
+
           <div class="servicios-btn">
-            <div class="button"><a href="#">Solicitar Turno</a></div>
+            <div class="button">
+              <a href="https://integrador-chi-seven.vercel.app/inicio.html"
+                >Solicitar Turno</a
+              >
+            </div>
           </div>
         </div>
         <div class="servicios-tipo">
@@ -239,6 +281,23 @@
                 <img
                   src="./assets/imagenes/contacto/instagram.png"
                   alt="instagram"
+              /></a>
+            </div>
+            <div class="redes-media">
+              <a href="#"
+                ><img
+                  src="./assets/imagenes/contacto/facebook.png"
+                  alt="facebook"
+              /></a>
+              <a href="#">
+                <img
+                  src="./assets/imagenes/contacto/instagram.png"
+                  alt="instagram"
+              /></a>
+              <a
+                href="https://www.google.com/maps/place/Adolfo+Calle+2940+local+2,+M5519+Mendoza/@-32.9033445,-68.8031352,21z/data=!4m6!3m5!1s0x967e0eb11486ad8d:0x8ae943eae06f96ea!8m2!3d-32.9033662!4d-68.8032671!16s%2Fg%2F11n0fgl0xs?hl=es-419&gl=AR"
+              >
+                <img src="./assets/imagenes/contacto/mapa.png" alt="ubicación"
               /></a>
             </div>
           </div>

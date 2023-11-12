@@ -1,0 +1,141 @@
+@media (max-width: 1180px) {
+  .menu-label {
+    display: flex;
+    order: 2;
+  }
+
+  .menu-label img {
+    height: 30px;
+  }
+
+  nav {
+    gap: 20px;
+  }
+
+  .nav-ul {
+    position: absolute;
+    top: 107.5px;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.35) 83%
+    );
+    border-radius: 0 0 10px 10px;
+    border: 2px solid white;
+    border-top: 0px;
+    display: none;
+  }
+
+  #menu-toggle:checked ~ .nav-ul {
+    display: flex;
+  }
+
+  .register {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    gap: 40px;
+  }
+
+  .estilos-cont {
+    max-width: 850px;
+    gap: 50px;
+  }
+
+  .estilos-img {
+    flex-wrap: wrap;
+  }
+
+  .milo img {
+    display: none;
+  }
+
+  .milo {
+    max-width: 850px;
+  }
+  .milo-text {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .milo-text p {
+    text-align: center;
+  }
+
+  .card-seccion {
+    max-width: 750px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  #servicios {
+    max-width: 850px;
+  }
+  .servicios-tipo {
+    display: none;
+  }
+
+  .servicios-texto {
+    gap: 50px;
+  }
+
+  .servicios-media {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .servicios-texto h2 {
+    text-align: center;
+  }
+
+  .servicios-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Contacto {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .contacto {
+    max-width: 850px;
+  }
+
+  .iframe {
+    display: none;
+  }
+  .contacto-redes {
+    display: none;
+  }
+
+  .redes-media {
+    display: flex;
+    gap: 30px;
+  }
+
+  .redes-media img {
+    height: 40px;
+  }
+
+  .contacto-datos {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer {
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+}
