@@ -138,4 +138,16 @@
     align-items: center;
     gap: 0px;
   }
+
+  /* ========== REGISTRO =========== */
+
+  .registro {
+    max-width: 850px;
+  }
+
+  /* ========== FORMULARIO=========== */
+
+  .formulario {
+    max-width: 850px;
+  }
 }
