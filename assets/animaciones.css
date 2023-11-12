@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.button-comp,
+.button-cart,
+.btn-more,
+.button {
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: var(--bk-btn-second);
+}
+
+.button-comp:hover {
+  background: var(--bk-btn-second);
+}
+
+.button-cart:hover {
+  background: var(--bk-btn);
+}
+
+.btn-more:hover {
+  background: var(--bk-btn-second);
+}
+
+.estilos-img img {
+  transition: transform 0.3s;
+}
+
+.estilos-img img:hover {
+  transform: scale(1.3);
+}
+
+.card img {
+  transition: transform 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.8);
+}

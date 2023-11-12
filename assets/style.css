@@ -22,6 +22,7 @@ body {
   --bk-seccion: #f1a93c;
   --bk-cards: #f6dfd1;
   --bk-btn-second: #b64070;
+  --bk-btn: #2c0e18;
 }
 
 header {
@@ -35,6 +36,7 @@ header {
     rgba(255, 255, 255, 0.35) 0%,
     rgba(255, 255, 255, 0.35) 83%
   );
+  z-index: 2;
 }
 
 nav {
@@ -137,6 +139,7 @@ p {
   width: 100%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .estilos-img img {
   height: 400px;
